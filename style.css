@@ -614,13 +614,53 @@ h2 {
   padding-right: 250px;
   column-gap: 50px;
   padding-top: 80px;
+  color: grey;
+  padding-bottom: 50px;
 }
 
-.footerİtem { max-width: 300px; }
+.footer h3 { color: white;
+font-size: 120%;}
+
+
+.footerİtem { max-width: 300px;
+}
+
+.footerİtem ul { padding-left: 0px;}
+
+.footerİtem ul li { 
+  padding: 15px;
+  border-bottom:solid #23282d;}
 
 
 .footerİtem h3 { border-left: #ffb600 solid 2px;
 padding-left: 15px;
 font-weight: 700;
 }
+
+.times { float: right;
+  }
+
+.footer2 {background-color: #ffb600;
+
+} 
+
+
+.footer2item { text-align: center;
+padding: 50px;
+font-weight: 700;
+}
+
+.footlist { display: flex;
+  column-gap: 20px;
+  font-weight: 700;
+  color: black;
+  justify-content: center;
+  
+}
+
+.footlistitem { color: black;}
+
+.footlistitem:hover { color: white;}
+
+
 
