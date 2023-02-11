@@ -6,10 +6,6 @@
   text-decoration: none;
 }
 
-a {
-  color: #ebebeb;
-}
-
 .header {
   font-size: x-small;
 }
@@ -101,7 +97,7 @@ a {
   display: flex;
   padding-left: 0px;
   gap: 25px;
- 
+  align-items: center;
 }
 
 .NavListİtems a {
@@ -121,8 +117,7 @@ a {
 }
 
 .NavListİtems .NavListİtem > a:hover {
-  color:#ffb600;
-
+  color: #ffb600;
 }
 
 .NavListİtems .NavListİtem > ul {
@@ -138,9 +133,8 @@ a {
 .NavListİtems .NavListİtem ul li a {
   color: black;
   padding: 20px 25px;
-  border-bottom: 1px solid rgb(211, 211, 211) ;
+  border-bottom: 1px solid rgb(211, 211, 211);
   font-weight: 700;
-  
 }
 
 .NavListİtems .NavListİtem ul li:hover a {
@@ -574,3 +568,59 @@ h2 {
   color: black;
   background-color: #ebebeb;
 }
+
+.RecentProjes {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  justify-content: center;
+}
+
+.Recent {
+  max-width: 350px;
+}
+
+.Recent img {
+  width: 350px;
+}
+.SeeAll {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.ALLPOST {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #ffb600;
+  color: white;
+  border: #ffb600 solid 1px;
+  font-weight: 700;
+}
+.ALLPOST:hover {
+  background-color: black;
+  border: black;
+}
+
+.footer {
+  color: white;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding-left: 250px;
+  padding-right: 250px;
+  column-gap: 50px;
+  padding-top: 80px;
+}
+
+.footerİtem { max-width: 300px; }
+
+
+.footerİtem h3 { border-left: #ffb600 solid 2px;
+padding-left: 15px;
+font-weight: 700;
+}
+
