@@ -167,6 +167,7 @@
         need to be sure there isnt anything embarrassing.</p>
 
     </div>
+
     <div class="who-right">
       <div class="owl-carousel owl-theme">
         <div class="items">
@@ -224,15 +225,47 @@
     <h2> PROFESSIONAL TEAM</h2>
   </div>
 
-  
-    <div class="owl-carousel demo owl-theme">
-      <div class="item"><img src="img/team/team1.jpg"></div>
-      <div class="item"><img src="img/team/team2.jpg"></div>
-      <div class="item"><img src="img/team/team3.jpg"></div>
-      <div class="item"><img src="img/team/team4.jpg"></div>
-      <div class="item"><img src="img/team/team5.jpg"></div>
-      <div class="item"><img src="img/team/team6.jpg"></div>
+
+
+  <div class="testo owl-carousel owl-theme">
+    <div><img src="img/team/team1.jpg">
+      <div class="testo-text">
+        <h3>NATS STENMAN</h3>
+        <h5>Chief Operating Officer</h5>
+      </div>
     </div>
+    <div><img src="img/team/team2.jpg">
+      <div class="testo-text">
+        <h3>ANGELA LYOER</h3>
+        <h5>Innovation Officer</h5>
+      </div>
+    </div>
+    <div><img src="img/team/team3.jpg">
+      <div class="testo-text">
+        <h3>MARK CONTER</h3>
+        <h5>Safety Officer</h5>
+      </div>
+    </div>
+    <div><img src="img/team/team4.jpg">
+      <div class="testo-text">
+        <h3>AYESHA STEWART</h3>
+        <h5>Finance Officer</h5>
+      </div>
+    </div>
+    <div><img src="img/team/team5.jpg">
+      <div class="testo-text">
+        <h3>DAVE CLARTKE</h3>
+        <h5>Civil Engineer</h5>
+      </div>
+    </div>
+    <div><img src="img/team/team6.jpg">
+      <div class="testo-text">
+        <h3>ELTON JOE</h3>
+        <h5>Site Supervisor</h5>
+      </div>
+    </div>
+  </div>
+
 
 
   <div class="footer">
@@ -302,14 +335,13 @@
       </ul>
     </div>
   </div>
-
+  <!-- bu birincinin kank aa diilmiş beynim yandı izlemekten sory -->
 
   <script>
-
-    $(".owl-carousel").owlCarousel({
+    $('.owl-carousel:not(".testo")').owlCarousel({
       loop: true,
       dots: false,
-      margin: 50,
+      margin: 10,
       nav: false,
       responsive: {
         0: {
@@ -325,13 +357,13 @@
     });
   </script>
 
-  <script>
 
-$(".owl-carousel demo").owlCarousel({
+  <script>
+    $(".owl-carousel").owlCarousel({
       loop: true,
       dots: false,
-      margin: 10,
-      nav: false,
+      margin: 20,
+      nav: true,
       responsive: {
         0: {
           items: 4,
@@ -344,8 +376,10 @@ $(".owl-carousel demo").owlCarousel({
         },
       },
     });
+  </script>
 
-    </script>
+
+
 
 
 

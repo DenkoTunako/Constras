@@ -759,42 +759,26 @@ h2 {
   left: 120px;
 }
 
-.owl-carousel.owl-theme {
-
+.testo.owl-carousel {
+  margin-top: 50px;
+  width: auto;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
-.item {
+.testo.owl-carousel div img {
+  position: relative;
+  width: 250px;
 }
- 
 
-amına koyam 2 sattir bunu yapamadım sikim sana dedim ya kanka 
-yazdıklarımı okumassın ki amk
-okanka yaptım dediğinide ben birleşik yazdğm için olmamıs amk ayrı olrak yaz dedim ya aslı kalsın 
-nheee ben o ayrıyı başka ayrı anladım kank
-nedenini şöyle anlatayım knk
-şimdi evet evet
-anladım ben kanka nedenini
-o direk caroseli bozuyor nicki değiştirince 
-heh aynen sen oraya ayrı bişi yazıp öyle çağırcan ki içierğini bozulmasın işte 
-anladım kank sen class ver diyince bende carosel1 carosel-2 felan salak salak şeyler denedşm amk xdxdxdxd
-olsun knk problem çözülmüştür 
-evet teşekkür ederim bilader bilir kişi şart 
-sen olmasan ben alt f4 atardım
-tekrar düşünüyorumda
-sen büyük adamsın yemin ederim tek başına bu işi çözmek varya büyük olay amk
-yok be valla bişi yok kanka biraz isticen saece dün ben de 4 te yattım amk
-trendyol sikti beni az zor amk şldfsahahaha 
-hayat böle işte .btnSlider11 adamı siker
-bir yere kadar geldim sonra saldım dır bak
-gap işlemiyor oraya asla çözemedim aq burayamı ? ? aynen sşdfs 
-neden acaba amk colomun gap amk
-ya grid ile yapınca oluyor ama normal yapınca olmuyp garip bir ara bakımca tekrardan
-onu bi yapsakSo tamAmso karıda iimiş ama bldr xdxdxd btn slider sdafşml
-beynim yandı amk
-vay amk memleket karışık bayaslider o kaydır aynen gördüm btn leri
-daha eksik çok aw neyse kanka ben kaço tamam bldrrrrrrrrr tşk ettm 
-bu arada
-olmus harbi trendyol bi tık daha bile güzel olmus hatta sanki colomunsuz ;)))
-biz tırnakı olamayız knka yanında olsn bilader içimizden daha güzel akiyaki github unutma knks yok unutmam kanka
-bide bi şınav çekim halilim ben akiyaki diyince aklıma halil geldi amk xd
-dur knk bunları githuba atmasına gerek yok 
+.testo-text {
+  position: absolute;
+  z-index: 1;
+  bottom:0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.55);
+  width: 210px;
+}
+
+.testo-text h5 { color: aliceblue;}
+
