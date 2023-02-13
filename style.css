@@ -21,8 +21,8 @@
   padding-top: 8px;
   padding-bottom: 8px;
   margin: auto;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .Location {
@@ -46,8 +46,8 @@
   max-width: 1200px;
   align-items: center;
   margin: auto;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .Logo {
@@ -87,8 +87,8 @@
 .container {
   display: flex;
   justify-content: space-between;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 200px;
+  padding-right: 200px;
   max-width: 1200px;
   align-items: center;
 }
@@ -285,8 +285,8 @@
   background-color: #ffb600;
   padding: 30px;
   max-width: 1200px;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .AraDivText {
@@ -310,8 +310,8 @@
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .texts h2 {
@@ -395,8 +395,8 @@
 .containerİconİn {
   display: flex;
   justify-content: space-between;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 200px;
+  padding-right: 200px;
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
@@ -461,8 +461,8 @@
 
 .Testimonials {
   max-width: 1200px;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 200px;
+  padding-right: 200px;
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
@@ -523,7 +523,7 @@ h2 {
   width: 30%;
   background-color: #ffb600;
   padding: 30px;
-  padding-left: 250px;
+  padding-left: 200px;
 }
 
 .yellow h5 {
@@ -542,7 +542,7 @@ h2 {
   padding: 30px;
   display: flex;
   justify-content: space-between;
-  padding-right: 250px;
+  padding-right: 200;
 }
 
 .blackLeft h5 {
@@ -610,57 +610,191 @@ h2 {
   display: flex;
   justify-content: space-between;
   background-color: black;
-  padding-left: 250px;
-  padding-right: 250px;
+  padding-left: 200px;
+  padding-right: 200px;
   column-gap: 50px;
   padding-top: 80px;
   color: grey;
   padding-bottom: 50px;
 }
 
-.footer h3 { color: white;
-font-size: 120%;}
-
-
-.footerİtem { max-width: 300px;
+.footer h3 {
+  color: white;
+  font-size: 120%;
 }
 
-.footerİtem ul { padding-left: 0px;}
+.footerİtem {
+  max-width: 300px;
+}
 
-.footerİtem ul li { 
+.footerİtem ul {
+  padding-left: 0px;
+}
+
+.footerİtem ul li {
   padding: 15px;
-  border-bottom:solid #23282d;}
-
-
-.footerİtem h3 { border-left: #ffb600 solid 2px;
-padding-left: 15px;
-font-weight: 700;
+  border-bottom: solid #23282d;
 }
 
-.times { float: right;
-  }
-
-.footer2 {background-color: #ffb600;
-
-} 
-
-
-.footer2item { text-align: center;
-padding: 50px;
-font-weight: 700;
+.footerİtem h3 {
+  border-left: #ffb600 solid 2px;
+  padding-left: 15px;
+  font-weight: 700;
 }
 
-.footlist { display: flex;
+.times {
+  float: right;
+}
+
+.footer2 {
+  background-color: #ffb600;
+}
+
+.footer2item {
+  text-align: center;
+  padding: 50px;
+  font-weight: 700;
+}
+
+.footlist {
+  display: flex;
   column-gap: 20px;
   font-weight: 700;
   color: black;
   justify-content: center;
-  
 }
 
-.footlistitem { color: black;}
+.footlistitem {
+  color: black;
+}
 
-.footlistitem:hover { color: white;}
+.footlistitem:hover {
+  color: white;
+}
 
+/*********************************************/
+/* About us */
+/*********************************************/
 
+.banner {
+  position: relative;
+}
 
+.bannerimg {
+  position: relative;
+  width: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  z-index: 1;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+}
+
+.banner-text h2 {
+  font-size: 500%;
+  font-weight: 1000;
+  color: white;
+}
+
+.banner-text ul {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  font-weight: 1000;
+  padding-left: 0;
+  color: white;
+}
+
+.banner-text ul li a {
+  color: white;
+}
+
+/* who we are */
+
+.WHOWE {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.who-left {
+  width: 550px;
+}
+
+.who-border {
+  padding: 30px;
+  border-left: #ffb600 solid 3px;
+}
+
+.who-right {
+  width: 550px;
+}
+
+/* SLİDER */
+
+.items {
+}
+
+.items-in {
+}
+
+.Sliderimg-about {
+  position: relative;
+}
+
+.items-in h5 {
+  font-size: 150%;
+  position: absolute;
+  color: white;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 20px;
+  width: 150px;
+  top: 120px;
+  left: 120px;
+}
+
+.owl-carousel.owl-theme {
+
+}
+
+.item {
+}
+ 
+
+amına koyam 2 sattir bunu yapamadım sikim sana dedim ya kanka 
+yazdıklarımı okumassın ki amk
+okanka yaptım dediğinide ben birleşik yazdğm için olmamıs amk ayrı olrak yaz dedim ya aslı kalsın 
+nheee ben o ayrıyı başka ayrı anladım kank
+nedenini şöyle anlatayım knk
+şimdi evet evet
+anladım ben kanka nedenini
+o direk caroseli bozuyor nicki değiştirince 
+heh aynen sen oraya ayrı bişi yazıp öyle çağırcan ki içierğini bozulmasın işte 
+anladım kank sen class ver diyince bende carosel1 carosel-2 felan salak salak şeyler denedşm amk xdxdxdxd
+olsun knk problem çözülmüştür 
+evet teşekkür ederim bilader bilir kişi şart 
+sen olmasan ben alt f4 atardım
+tekrar düşünüyorumda
+sen büyük adamsın yemin ederim tek başına bu işi çözmek varya büyük olay amk
+yok be valla bişi yok kanka biraz isticen saece dün ben de 4 te yattım amk
+trendyol sikti beni az zor amk şldfsahahaha 
+hayat böle işte .btnSlider11 adamı siker
+bir yere kadar geldim sonra saldım dır bak
+gap işlemiyor oraya asla çözemedim aq burayamı ? ? aynen sşdfs 
+neden acaba amk colomun gap amk
+ya grid ile yapınca oluyor ama normal yapınca olmuyp garip bir ara bakımca tekrardan
+onu bi yapsakSo tamAmso karıda iimiş ama bldr xdxdxd btn slider sdafşml
+beynim yandı amk
+vay amk memleket karışık bayaslider o kaydır aynen gördüm btn leri
+daha eksik çok aw neyse kanka ben kaço tamam bldrrrrrrrrr tşk ettm 
+bu arada
+olmus harbi trendyol bi tık daha bile güzel olmus hatta sanki colomunsuz ;)))
+biz tırnakı olamayız knka yanında olsn bilader içimizden daha güzel akiyaki github unutma knks yok unutmam kanka
+bide bi şınav çekim halilim ben akiyaki diyince aklıma halil geldi amk xd
+dur knk bunları githuba atmasına gerek yok 
