@@ -774,11 +774,36 @@ h2 {
 .testo-text {
   position: absolute;
   z-index: 1;
-  bottom:0;
+  bottom: 0;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.55);
   width: 210px;
 }
 
-.testo-text h5 { color: aliceblue;}
+.testo-text h5 {
+  color: aliceblue;
+}
 
+.specialist h2 {
+  margin-top: 50px;
+}
+
+.leadership {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 480px;
+  padding-right: 480px;
+}
+
+.team {
+  max-width: 300px;
+}
+
+.leadership2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+}
