@@ -735,14 +735,6 @@ h2 {
   width: 550px;
 }
 
-/* SLİDER */
-
-.items {
-}
-
-.items-in {
-}
-
 .Sliderimg-about {
   position: relative;
 }
@@ -807,3 +799,33 @@ h2 {
   padding-left: 200px;
   padding-right: 200px;
 }
+
+.peopleSaid {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.people-card {
+  margin-top: 50px;
+  width: 350px;
+  text-align: center;
+}
+.people-in p {
+  border: #ffb600 solid 1px;
+  padding: 20px;
+  font-size: large;
+}
+
+.people-in img {
+  margin-top: 50px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+.people-text h3 { color: #ffb600;
+margin-top: 20px;}
+
+.people-text h5 { color: grey;
+margin-top: 10px;}
