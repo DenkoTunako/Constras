@@ -824,8 +824,65 @@ h2 {
   border-radius: 10px;
 }
 
-.people-text h3 { color: #ffb600;
-margin-top: 20px;}
+.people-text h3 {
+  color: #ffb600;
+  margin-top: 20px;
+}
 
-.people-text h5 { color: grey;
-margin-top: 10px;}
+.people-text h5 {
+  color: grey;
+  margin-top: 10px;
+}
+
+.akordiyonsami {
+  display: flex;
+}
+
+.faqtitle {
+  padding-left: 200px;
+  margin-top: 30px;
+}
+
+.faqtitle h1 {
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.faq-accordion {
+  margin-top: 30px;
+  width: 700px;
+  padding-left: 200px;
+}
+
+.accordion {
+  margin-bottom: 10px;
+}
+
+.faqright {margin-top: 30px;
+  padding-left: 50px;}
+
+.faqright h1{
+  font-size: large;
+  font-weight: 700;
+  padding-left: 20px;
+  border-left: #ffb600 solid 2px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.news-in a { display: flex;
+width: 350px;
+margin-bottom: 30px;
+border-bottom: solid grey 1px;
+padding-bottom: 30px;
+color: black;
+}
+
+.news-in a:hover { color: #ffb600;}
+
+.news-in p { padding: 10px;
+font-weight: 700;
+font-size:larger ;}
+
+.news-in img { width: 100px;}
+

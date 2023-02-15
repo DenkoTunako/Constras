@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" />
     <script src="js/jquery-3.6.3.js"></script>
     <script src="/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-    <title>TESTIMONIALS</title>
+    <title>FAQ</title>
 </head>
 
 <body>
@@ -144,61 +144,128 @@
 
         <img class="bannerimg" src="img/Yeni klasör/banner1.jpg" alt="">
         <div class="banner-text">
-            <h2>TESTIMONIALS</h2>
+            <h2>FAQ</h2>
             <ul>
                 <li><a href=""> HOME </a></li> /
                 <li><a href=""> COMPANY </a></li> /
-                <li>TESTIMONIALS</li>
+                <li>FAQ</li>
             </ul>
         </div>
 
     </div>
 
+    <div class="akordiyonsami">
 
-    <div class="specialist">
-        <h2>WHAT PEOPLE SAID</h2>
+        <div class="faqleft">
+
+            <div class="faqtitle">
+                <h1>CONSTRUCTION GENERAL</h1>
+
+            </div>
+
+            <div class="faq-accordion">
+                <button class="accordion"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                        minima.</b></button>
+                <div class="panel">
+                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                        wolf
+                        moon
+                        officia aute, non cupidata</p>
+                </div>
+
+                <button class="accordion"> <b> Lorem ipsum dolor, sit amet consectetur adipisicing.</b></button>
+                <div class="panel">
+                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                        wolf
+                        moon
+                        officia aute, non cupidata</p>
+                </div>
+
+                <button class="accordion"> <b> Lorem ipsum dolor sit amet. </b> </button>
+                <div class="panel">
+                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                        wolf
+                        moon
+                        officia aute, non cupidata</p>
+                </div>
+            </div>
+
+            <div class="faqtitle">
+                <h1>SAFETY</h1>
+
+            </div>
+
+            <div class="faq-accordion">
+                <button class="accordion"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                        minima.</b></button>
+                <div class="panel">
+                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                        wolf
+                        moon
+                        officia aute, non cupidata</p>
+                </div>
+
+                <button class="accordion"> <b> Lorem ipsum dolor, sit amet consectetur adipisicing.</b></button>
+                <div class="panel">
+                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                        wolf
+                        moon
+                        officia aute, non cupidata</p>
+                </div>
+
+                <button class="accordion"> <b> Lorem ipsum dolor sit amet. </b> </button>
+                <div class="panel">
+                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                        wolf
+                        moon
+                        officia aute, non cupidata</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="faqright">
+            <h1>RECENT POSTS</h1>
+
+            <div class="newslink">
+                <div class="news-in">
+                    <a href="">
+                    <img src="img/news/news1.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></a>
+                </div>
+                <div class="news-in"><a href="">
+                    <img src="img/news/news2.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></a>
+                </div>
+                <div class="news-in"><a href="">
+                    <img src="img/news/news3.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></a>
+                </div>
+
+
+                
+
+
+            </div>
+
+
+
+
+        </div>
     </div>
 
 
-    <div class="peopleSaid">
-        <div class="people-card">
-            <div class="people-in">
-                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
-                <img src="img/team/team3.jpg" alt="">
-                <div class="people-text">
-                    <h3>GABRIEL DENIS</h3>
-                    <h5>Chairman, Okt Industries</h5>
-                </div>
-
-            </div>
 
 
-        </div>
-        <div class="people-card">
 
-            <div class="people-in">
-                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
-                <img src="img/team/team2.jpg" alt="">
-                <div class="people-text">
-                    <h3>WELDON CASH</h3>
-                    <h5>CEO, First Choice Group</h5>
-                </div>
-            </div>
-        </div>
 
-        <div class="people-card">
 
-            <div class="people-in">
-                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p>
-                <img src="img/team/team1.jpg" alt="">
-                <div class="people-text">
-                    <h3>HYRAM IZZY</h3>
-                    <h5>Director, AKT Group</h5>
-                </div>
-            </div>
-        </div>
 
-    </div>
+
+
+
+
+
 
 
     <div class="footer">
@@ -226,7 +293,7 @@
 
 
 
-        
+
         <div class="footerİtem">
             <h3>WORKING HOURS</h3>
             <br><br>
@@ -273,6 +340,30 @@
             </ul>
         </div>
     </div>
+
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
+
+                /* Toggle between hiding and showing the active panel */
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+
 
 
 
