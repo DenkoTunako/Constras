@@ -941,36 +941,84 @@ h2 {
   font-weight: 700;
 }
 
-.pay-in ul li { 
+.pay-in ul li {
   padding: 25px;
-  
 }
 
-.pay-li { border-bottom:solid lightslategray 0.1px;}
+.pay-li {
+  border-bottom: solid lightslategray 0.1px;
+}
 
-.btnorder {  padding-top: 12px;
+.btnorder {
+  padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 25px;
   padding-right: 25px;
   background-color: black;
   color: white;
   border: black solid 1px;
-margin-top: 40px; }
+  margin-top: 40px;
+}
 
-  .btnorder2 {padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 25px;
-    padding-right: 25px;
-    background-color:#ffb600;
-    color: white;
-    border:#ffb600 solid 1px;
-    margin-top: 40px;
-  
-  }
+.btnorder2 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #ffb600;
+  color: white;
+  border: #ffb600 solid 1px;
+  margin-top: 40px;
+}
 
-    .btnorder2:hover { 
-      
-      background-color: black;
-    border: black;}
+.btnorder2:hover {
+  background-color: black;
+  border: black;
+}
 
-   
+.location-card {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 50px;
+}
+
+.location-card-in {
+  color: white;
+  background-color: #252525;
+  text-align: center;
+  height: 200px;
+  width: 350px;
+  padding-top: 30px;
+  border-radius: 5px;
+}
+
+.location-icon {
+  background-color: #ffb600;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  margin: auto;
+}
+
+.location-icon i {
+  position: relative;
+  padding: 18px;
+  font-size: 200%;
+}
+
+.location-card-in strong {
+  font-size: 150%;
+}
+
+.location-card-in p {
+  font-size: 120%;
+}
+
+.maps {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
