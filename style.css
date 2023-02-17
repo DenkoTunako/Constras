@@ -777,7 +777,7 @@ h2 {
 }
 
 .specialist h2 {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .leadership {
@@ -858,10 +858,12 @@ h2 {
   margin-bottom: 10px;
 }
 
-.faqright {margin-top: 30px;
-  padding-left: 50px;}
+.faqright {
+  margin-top: 30px;
+  padding-left: 50px;
+}
 
-.faqright h1{
+.faqright h1 {
   font-size: large;
   font-weight: 700;
   padding-left: 20px;
@@ -870,19 +872,105 @@ h2 {
   margin-bottom: 30px;
 }
 
-.news-in a { display: flex;
-width: 350px;
-margin-bottom: 30px;
-border-bottom: solid grey 1px;
-padding-bottom: 30px;
-color: black;
+.news-in a {
+  display: flex;
+  width: 350px;
+  margin-bottom: 30px;
+  border-bottom: solid grey 1px;
+  padding-bottom: 30px;
+  color: black;
 }
 
-.news-in a:hover { color: #ffb600;}
+.news-in a:hover {
+  color: #ffb600;
+}
 
-.news-in p { padding: 10px;
-font-weight: 700;
-font-size:larger ;}
+.news-in p {
+  padding: 10px;
+  font-weight: 700;
+  font-size: larger;
+}
 
-.news-in img { width: 100px;}
+.news-in img {
+  width: 100px;
+}
 
+.pay-page {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 60px;
+}
+
+.pay-in {
+  text-align: center;
+}
+
+.pay-1 {
+  color: white;
+  background-color: #252525;
+  width: 350px;
+  height: 120px;
+  padding-top: 50px;
+}
+
+.pay-1 h3 {
+  font-size: 120%;
+}
+
+.pay-1 strong {
+  font-size: 300%;
+  font-weight: 700;
+}
+
+.pay-2 {
+  color: white;
+  background-color: #ffb600;
+  width: 350px;
+  height: 120px;
+  padding-top: 50px;
+}
+
+.pay-2 h3 {
+  font-size: 120%;
+}
+
+.pay-2 strong {
+  font-size: 300%;
+  font-weight: 700;
+}
+
+.pay-in ul li { 
+  padding: 25px;
+  
+}
+
+.pay-li { border-bottom:solid lightslategray 0.1px;}
+
+.btnorder {  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: black;
+  color: white;
+  border: black solid 1px;
+margin-top: 40px; }
+
+  .btnorder2 {padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color:#ffb600;
+    color: white;
+    border:#ffb600 solid 1px;
+    margin-top: 40px;
+  
+  }
+
+    .btnorder2:hover { 
+      
+      background-color: black;
+    border: black;}
+
+   
